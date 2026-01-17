@@ -217,5 +217,3 @@ select
 from Bookings, TripDetails
 where Bookings.BookingID = TripDetails.BookingID and Status = 'Completed'
 group by DayType;
-
-drop database cb;
